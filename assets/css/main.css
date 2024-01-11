@@ -292,6 +292,7 @@ p {
     margin-bottom: -8px; }
 
 @media (min-width: 576px) {
+  
   h1 {
     font-size: 55px; }
 
@@ -1006,6 +1007,14 @@ header .list {
     padding-top: 0;
     padding-bottom: 0; }
 @media screen and (max-width: 449px) {
+  .apoio{
+    display: flex;
+    
+      }
+      .imgapoio{
+        width: 70px;
+        height: 70px;
+      }
   header .select-career {
     position: absolute;
     top: 100%;
@@ -1027,6 +1036,7 @@ header .list {
       -ms-transform: scaleY(1);
       transform: scaleY(1); } }
 @media screen and (min-width: 450px) {
+ 
   header .select-bar-bar {
     display: none; } }
 

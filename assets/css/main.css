@@ -29,6 +29,12 @@ html {
   background: #b3d4fc;
   text-shadow: none; }
 
+  
+  input[type=checkbox], input[type=radio] {
+    width: 15px;
+    box-sizing: border-box;
+    padding: 0;
+}
 /*
  * A better looking default horizontal rule
  */
@@ -278,6 +284,9 @@ h4 {
   margin-top: -10px;
   margin-bottom: 22px; }
 
+
+
+
 h5 {
   font-size: 20px;
   margin-top: -10px;
@@ -370,7 +379,7 @@ input {
     border: 1px solid #F58634; }
   input[type="submit"] {
     cursor: pointer;
-    background-color: #33abf6;
+    background-color: #F58634;
     color: #ffffff;
     font-weight: 700;
     padding: 0; }
@@ -536,6 +545,7 @@ input {
   text-align: center;
   max-width: 790px; }
   @media (min-width: 576px) {
+ 
     .section-header {
       margin-bottom: 50px; } }
   .section-header .title {
@@ -605,6 +615,9 @@ input {
 
 .mt-50 {
   margin-top: 50px; }
+  .testing-item{
+    margin-top: 20px;
+  }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .ml-lg-15-xl {
@@ -2098,6 +2111,7 @@ i[class*="flaticon"] {
       height: 140px; }
     .testing-form .form-group input {
       padding: 0 15px; }
+      
       .testing-form .form-group input[type="submit"] {
         background: #F58634;
         width: auto;

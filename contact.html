@@ -19,10 +19,18 @@
 
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
 
-    <title>Messon - Bulk SMS Reseller Business HTML Template</title>
+    <title>Heiliger</title>
 
 
 </head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WJSQ4JPEEM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WJSQ4JPEEM');
+</script>
 
 <body>
     <!-- ==========Preloader========== -->
@@ -106,11 +114,11 @@
     <!-- ==========Header Section========== -->
 
     <!-- =============Hero Area============= -->
-    <section class="hero-area bg_img" data-background="assets/images/page-header.jpg">
+    <!-- <section class="hero-area bg_img" data-background="assets/images/page-header.jpg">
         <div class="container">
-            <h1 class="title m-0">my account</h1>
+            <h1 class="title m-0"></h1>
         </div>
-    </section>
+    </section> -->
     <div class="breadcrumb-section">
         <div class="container">
             <ul class="breadcrumb">
@@ -131,32 +139,57 @@
         <div class="container">
             <div class="account-wrapper">
                 <div class="account-area">
-                    <h3 class="account-title">send us a message</h3>
-                    <form class="contact-form" id="contact_form_submit">
-                        <div class="form-group">
-                            <input type="text" id="name" placeholder="Full Name">
+                    <h3 class="account-title">Envie sua Mensgem</h3>
+                    <form action="https://www.rdstation.com.br/api/1.2/conversions" method="POST">
+                        <input type="hidden" name="token_rdstation" value="fc667c34dd589071d52a7275e4f6e1b4" />
+                        <!--
+                          * Atenção!
+                          * Token de testes - Usar o próprio de sua conta encontrado em: https://www.rdstation.com.br/docs/api
+                        -->
+                        <input type="hidden" name="identificador" value="PaginaContatos" />
+                        <!-- <input type="hidden" name="redirect_to" value="http://resultadosdigitais.com.br" /> -->
+                    
+                        
+                        <div class="field">
+                          <!-- <label>Nome:</label> -->
+                          <input type="text" name="nome" placeholder="Nome" required />
                         </div>
-                        <div class="form-group">
-                            <input type="text" id="email" placeholder="Email">
+                        <div class="field">
+                          
+                            <input type="email" name="email" placeholder="E-mail" required />
+                          </div>
+                          <div class="field">
+                            <!-- <label>Empresa:</label> -->
+                            <input type="tel" name="celular" placeholder="Digite seu numero Ex: 99 99999-9999" required/>
+                          </div>
+                        <div class="field">
+                            <!-- <label>Empresa:</label> -->
+                            <input type="text" name="empresa" placeholder="Empresa" required/>
+                          </div>
+                        <div class="field">
+                          <!-- <label>Empresa:</label> -->
+                          <input type="text" name="cargo" placeholder="Cargo" required/>
                         </div>
-                        <div class="form-group">
-                            <textarea id="message" placeholder="Message"></textarea>
+                        <div class="field">
+                            <!-- <label>Empresa:</label> -->
+                            <!-- <input type="text" name="mensagem" placeholder="Mensagem" required/> -->
+
+                            <textarea name="mensagem" placeholder="Mensagem" cols="30" rows="10"></textarea>
+                          </div>
+                         <div class="field">
+                            <input  type="checkbox" id="scales" name="scales"   required /> <label class="" style="font-size: 10px;"> Ao preencher o formulário, concordo * em receber comunicações de acordo com meus interesses. <br>
+                                - Ao informar meus dados, eu concordo com a <a href="privacidade.html"> Política de privacidade.</a> <br>
+                                * Você pode alterar suas permissões de comunicação a qualquer tempo.</label>
+                         </div>
+                        <div class="actions">
+                    <input type="hidden" name="c_utmz" id="c_utmz" value="" />
+                    <script type="text/javascript">
+                    function read_cookie(a){var b=a+"=";var c=document.cookie.split(";");for(var d=0;d<c.length;d++){var e=c[d];while(e.charAt(0)==" ")e=e.substring(1,e.length);if(e.indexOf(b)==0){return e.substring(b.length,e.length)}}return null}try{document.getElementById("c_utmz").value=read_cookie("__utmz")}catch(err){}
+                    </script>
+                          <input  type="submit" value="Enviar" />
                         </div>
-                        <div class="form-group radio-group">
-                            <p>Preferred of mode Communication</p>
-                            <div class="radio-item">
-                                <input type="radio" checked name="mode" id="mode01">
-                                <label for="mode01">Email</label>
-                            </div>
-                            <div class="radio-item">
-                                <input type="radio" name="mode" id="mode02">
-                                <label for="mode02">Phone</label>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="submit" value="Send Message">
-                        </div>
-                    </form>
+                        
+                      </form>
                 </div>
             </div>
         </div>
@@ -242,32 +275,32 @@
                 <div class="row mb-50-none">
                     <div class="col-sm-6 col-lg-3">
                         <div class="footer-widget footer-link">
-                            <h5 class="title">bulk SMS</h5>
+                            <h5 class="title">Serviços</h5>
                             <ul>
                                 <li>
-                                    <a href="#0">masking SMS</a>
+                                    <a href="#0">Consultoria</a>
                                 </li>
                                 <li>
-                                    <a href="#0">Non-Masking SMS</a>
+                                    <a href="#0">Desenvolvimento</a>
                                 </li>
                                 <li>
-                                    <a href="#0">location based SMS</a>
+                                    <a href="#0">Treinamento</a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="#0">Voice message</a>
                                 </li>
                                 <li>
                                     <a href="#0">promo SMS</a>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-3">
                         <div class="footer-widget footer-link">
-                            <h5 class="title">company</h5>
+                            <h5 class="title">Empresa</h5>
                             <ul>
                                 <li>
-                                    <a href="#0">about</a>
+                                    <a href="about.html">Sobre</a>
                                 </li>
                                 <li>
                                     <a href="#0">pricing plan</a>
@@ -286,36 +319,42 @@
                     </div>
                     <div class="col-sm-6 col-lg-3">
                         <div class="footer-widget footer-link">
-                            <h5 class="title">Partners</h5>
+                            <h5 class="title">Parceiros</h5>
                             <ul>
                                 <li>
-                                    <a href="#0">kingstar</a>
+                                    <a href="#0">AWS</a>
                                 </li>
                                 <li>
-                                    <a href="#0">laravala click</a>
+                                    <a href="#0">Boomi</a>
                                 </li>
                                 <li>
-                                    <a href="#0">yago</a>
+                                    <a href="#0">Azure</a>
+                                </li>
+                                <li>
+                                    <a href="#0">WSO2</a>
+                                </li>
+                                <li>
+                                    <a href="#0">Gravitie</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-3">
                         <div class="footer-widget footer-about">
-                            <h5 class="title">about us</h5>
-                            <p>Tellus fermentum a aenean laoreet libero in, at convallis varius morbi.</p>
+                            <h5 class="title">Heiliger Tech</h5>
+                            <p>Nós construímos experiências</p>
                             <ul class="footer-social">
                                 <li>
-                                    <a href="#0"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#0"><i class="fab fa-facebook-f" target="_blank"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#0"><i class="fab fa-twitter"></i></a>
+                                    <a href="#0"><i class="fab fa-twitter" target="_blank"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#0"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.instagram.com/heiligertech/"target="_blank"><i class="fab fa-instagram"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#0"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://www.linkedin.com/company/heiliger-tech/mycompany/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -325,7 +364,7 @@
         </div>
         <div class="footer-bottom py-3 py-sm-4 text-center">
             <div class="container">
-                <p class="m-0"> <a href="templateshub.net">Templates Hub</a></p>
+               <a href="index.html"><img src="/assets/images/logo/heiligerTECH_logo_branca.png" alt="" width="150px" srcset=""></a>
             </div>
         </div>
     </footer>

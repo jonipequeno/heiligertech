@@ -29,11 +29,18 @@ html {
   background: #b3d4fc;
   text-shadow: none; }
 
-  
+  .termo{
+    display: flex;
+    margin: 15px;
+  }
+  .text-termo{
+    margin: 0;
+  }
   input[type=checkbox], input[type=radio] {
     width: 15px;
     box-sizing: border-box;
     padding: 0;
+    margin-right: 5px;
 }
 /*
  * A better looking default horizontal rule

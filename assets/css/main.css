@@ -570,7 +570,7 @@ input {
     .section-header {
       margin-bottom: 50px; } }
   .section-header .title {
-    text-transform: capitalize;
+    
     margin-bottom: 16px; }
   .section-header .cate {
     display: flex;
@@ -971,7 +971,7 @@ footer {
       footer .footer-top .footer-widget.footer-link ul {
         margin-bottom: -14px; }
         footer .footer-top .footer-widget.footer-link ul li a {
-          text-transform: capitalize; }
+           }
           footer .footer-top .footer-widget.footer-link ul li a:hover {
             padding-left: 5px; }
           footer .footer-top .footer-widget.footer-link ul li a::before {
@@ -1115,7 +1115,7 @@ header .list {
           .header-bottom .header-area .menu li a {
             font-size: 14px;
             font-weight: 600;
-            text-transform: capitalize;
+            
             color: #565b73;
             padding: 10px; } }
       @media (min-width: 992px) and (min-width: 1200px) {
@@ -1207,7 +1207,7 @@ header .list {
               display: flex;
               border-bottom: 1px solid #e5e5e5;
               color: #0d112b;
-              text-transform: capitalize; }
+               }
             .header-bottom .header-area .menu li .submenu {
               display: none;
               padding-left: 10px; } }
@@ -1409,7 +1409,7 @@ header.style-two {
       margin-top: -9px;
       font-size: 16px; }
     .banner-section .banner-content .title {
-      text-transform: capitalize;
+      
       margin: 0; }
       @media (min-width: 768px) {
         .banner-section .banner-content .title {
@@ -1422,7 +1422,7 @@ header.style-two {
       .banner-section .banner-content .video-button-group > * {
         margin: 5px;
         margin-bottom: 15px;
-        text-transform: capitalize; }
+         }
     @media (max-width: 767px) {
       .banner-section .banner-content .title {
         font-size: 30px;
@@ -1669,7 +1669,7 @@ header.style-two {
   .widget .widget-header .title {
     font-size: 22px;
     line-height: 27px;
-    text-transform: capitalize;
+    
     margin-top: -6px;
     margin-bottom: 0; }
     .widget .widget-header .title::after {
@@ -1703,7 +1703,7 @@ header.style-two {
       text-align: right;
       border: none; }
   .widget.widget-archive ul li, .widget.widget-category ul li {
-    text-transform: capitalize;
+    
     line-height: 1.688;
     border-bottom: 1px solid #e5e5e5;
     padding: 0; }
@@ -1759,7 +1759,7 @@ header.style-two {
       color: #F58634; }
   .widget.widget-download ul li {
     font-weight: 600;
-    text-transform: capitalize;
+    
     line-height: 1.688;
     border-bottom: 1px solid #e5e5e5;
     padding: 0; }
@@ -1812,7 +1812,7 @@ i[class*="flaticon"] {
       .choose-item .choose-thumb {
         margin-bottom: 30px; } }
   .choose-item .title {
-    text-transform: capitalize; }
+     }
   .choose-item-two {
     padding: 0; }
     .choose-item-two .choose-header-area .choose-thumb {
@@ -1876,7 +1876,7 @@ i[class*="flaticon"] {
       .service-item .service-thumb {
         margin-bottom: 35px; } }
   .service-item .service-content .title {
-    text-transform: capitalize; }
+     }
   .service-item .service-content p {
     margin-bottom: 5px; }
     @media (min-width: 576px) {
@@ -1890,7 +1890,7 @@ i[class*="flaticon"] {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    text-transform: capitalize;
+    
     margin-bottom: -7px; }
     .service-item .service-content a i {
       font-size: 16px;
@@ -1957,12 +1957,12 @@ i[class*="flaticon"] {
   margin: 0 auto; }
   .client-item .client-content .title {
     margin-bottom: 0px;
-    text-transform: capitalize; }
+     }
   .client-item .client-content span {
     display: block;
     margin-bottom: 20px;
     color: #F58634;
-    text-transform: capitalize; }
+     }
     @media (min-width: 576px) {
       .client-item .client-content span {
         margin-bottom: 18px; } }
@@ -2032,7 +2032,7 @@ i[class*="flaticon"] {
         width: calc(100% - 50px);
         padding-left: 20px; }
     .counter-wrapper .counter-item p {
-      text-transform: capitalize;
+      
       line-height: 1.5; }
       @media (min-width: 576px) {
         .counter-wrapper .counter-item p {
@@ -2069,7 +2069,7 @@ i[class*="flaticon"] {
     max-width: 540px;
     margin-right: 15px; } }
 .left-side-offer .title {
-  text-transform: capitalize; }
+   }
   @media (min-width: 576px) {
     .left-side-offer .title {
       margin-bottom: 32px; } }
@@ -2095,7 +2095,7 @@ i[class*="flaticon"] {
   margin-bottom: -13px; }
 
 .testing-item .title {
-  text-transform: capitalize; }
+   }
   @media (min-width: 576px) {
     .testing-item .title {
       margin-bottom: 30px; } }
@@ -2169,7 +2169,7 @@ i[class*="flaticon"] {
   margin-top: -9px;
   margin-bottom: 16px; }
 .bulk-content .title {
-  text-transform: capitalize;
+  
   margin-bottom: 25px; }
   @media (min-width: 576px) {
     .bulk-content .title {
@@ -2258,7 +2258,7 @@ i[class*="flaticon"] {
       border-bottom: 1px solid #f2f2f2;
       padding: 22px 15px; }
       .price-item ul li span {
-        text-transform: capitalize;
+        
         font-weight: 600; }
         .price-item ul li span::after {
           content: ":";
@@ -2283,7 +2283,7 @@ i[class*="flaticon"] {
     .price-item-two .price-header .category {
       color: #0d112b;
       font-weight: 600;
-      text-transform: capitalize; }
+       }
       @media (min-width: 576px) {
         .price-item-two .price-header .category {
           margin-bottom: 8px; } }
@@ -2312,7 +2312,7 @@ i[class*="flaticon"] {
         position: relative;
         z-index: 1; }
       .price-item-three .price-header .category {
-        text-transform: capitalize; }
+         }
       .price-item-three .price-header::before {
         background-color: #F58634;
         width: 100%;
@@ -2426,7 +2426,7 @@ i[class*="flaticon"] {
     .testimonial-item .testimonial-content .title a {
       color: #0d112b; }
   .testimonial-item .testimonial-content .info {
-    text-transform: capitalize;
+    
     font-weight: 600;
     font-style: italic;
     display: block;
@@ -2579,7 +2579,7 @@ ul.filter {
     margin-left: auto; } }
 .overview-one-content .title {
   margin-bottom: 15px;
-  text-transform: capitalize; }
+   }
   @media (min-width: 576px) {
     .overview-one-content .title {
       margin-bottom: 25px; } }
@@ -2604,7 +2604,7 @@ ul.filter {
       .overview-two-content .overview-header-area {
         margin-bottom: 48px; } }
     .overview-two-content .overview-header-area .title {
-      text-transform: capitalize;
+      
       margin-bottom: 20px; }
       @media (min-width: 576px) {
         .overview-two-content .overview-header-area .title {
@@ -2624,7 +2624,7 @@ ul.filter {
         width: 50%;
         margin-bottom: 50px; } }
     .overview-item-area .overview-item-item .sub-title {
-      text-transform: capitalize; }
+       }
 
 .overview-two-thumb {
   position: relative;
@@ -2654,7 +2654,7 @@ ul.filter {
     padding-left: 30px;
     width: calc(100% - 75px); }
     .overview-play-item .o-play-content .sub-title {
-      text-transform: capitalize; }
+       }
       .overview-play-item .o-play-content .sub-title a {
         color: #ffffff; }
   .overview-play-item .o-play-thumb {
@@ -2693,7 +2693,7 @@ ul.filter {
   .hero-area .title {
     font-size: 30px;
     color: #ffffff;
-    text-transform: capitalize;
+    
     margin-top: -3px !important; }
     @media (min-width: 576px) {
       .hero-area .title {
@@ -2719,7 +2719,7 @@ ul.filter {
     padding: 0;
     font-size: 16px;
     font-weight: 600;
-    text-transform: capitalize;
+    
     color: #0d112b; }
     .breadcrumb li a {
       color: #0d112b;
@@ -2757,7 +2757,7 @@ ul.filter {
     .feature-item .icon i {
       color: #ffffff; }
   .feature-item .title {
-    text-transform: capitalize; }
+     }
   .feature-item .feature-content {
     width: calc(100% - 60px);
     padding-left: 20px; }
@@ -2865,7 +2865,7 @@ ul.filter {
       width: calc(100% - 108px); }
       .step-item .step-content .content .sub-title {
         margin: 0;
-        text-transform: capitalize; }
+         }
 @media (min-width: 992px) and (max-width: 1199px) {
   .step-item .step-content .content {
     width: calc(100% - 80px); }
@@ -2883,7 +2883,7 @@ ul.filter {
 /*non-masking-sms-section-overview Starts*/
 .overview-three-content .title,
 .overview-non-masking-left .title {
-  text-transform: capitalize;
+  
   margin-bottom: 27px; }
 .overview-three-content p.header-para,
 .overview-non-masking-left p.header-para {
@@ -2956,7 +2956,7 @@ ul.filter {
     margin-top: -9px;
     margin-bottom: 16px; }
   .benifit-section .benifit-left .title {
-    text-transform: capitalize;
+    
     margin-bottom: 25px;
     max-width: 620px; }
   .benifit-section .benifit-left > p {
@@ -3058,7 +3058,7 @@ ul.filter {
       margin: 0; }
 
 h4.title {
-  text-transform: capitalize; }
+   }
 
 .cate {
   text-transform: uppercase;
@@ -3091,7 +3091,7 @@ h4.title {
 
 /* location-based-left Start */
 .location-based-left .title {
-  text-transform: capitalize;
+  
   margin-bottom: 18px; }
   @media (min-width: 992px) {
     .location-based-left .title {
@@ -3159,7 +3159,7 @@ h4.title {
           display: none; } }
   .service-pro-item .service-pro-content {
     text-align: center;
-    text-transform: capitalize; }
+     }
     .service-pro-item .service-pro-content .title {
       margin-bottom: 0; }
   @media (max-width: 575px) {
@@ -3207,8 +3207,8 @@ ul.bullet-list {
     max-width: 100%; }
 
 .voice-content .title {
-  text-transform: capitalize;
-  text-transform: capitalize;
+  
+  
   margin-bottom: 25px; }
   @media (min-width: 576px) {
     .voice-content .title {
@@ -3269,7 +3269,7 @@ ul.bullet-list {
     margin-bottom: 30px;
     display: block; }
   .feature-item-three .title {
-    text-transform: capitalize; }
+     }
 
 .overview-thumb {
   margin-bottom: 36px; }
@@ -3285,8 +3285,8 @@ ul.bullet-list {
 .overview-four-content {
   max-width: 570px; }
   .overview-four-content .title {
-    text-transform: capitalize;
-    text-transform: capitalize;
+    
+    
     margin-bottom: 25px; }
     @media (min-width: 576px) {
       .overview-four-content .title {
@@ -3313,7 +3313,7 @@ ul.bullet-list {
 .email-topper-area {
   margin-bottom: 40px; }
   .email-topper-area .title {
-    text-transform: capitalize;
+    
     margin-bottom: 16px; }
     @media (min-width: 992px) {
       .email-topper-area .title {
@@ -3353,7 +3353,7 @@ ul.bullet-list {
         margin-bottom: 45px; } }
     .email-tab .tab-menu li {
       padding: 10px 15px;
-      text-transform: capitalize;
+      
       font-weight: 600;
       font-size: 16px; }
       .email-tab .tab-menu li.active {
@@ -3392,7 +3392,7 @@ ul.bullet-list {
 
 /*faq-section Starts*/
 .faq-section-title {
-  text-transform: capitalize;
+  
   margin-bottom: 10px; }
   @media (min-width: 768px) {
     .faq-section-title {
@@ -3410,7 +3410,7 @@ ul.bullet-list {
     .faq-wrapper .faq-item .faq-title .title {
       margin: 0;
       font-size: 16px;
-      text-transform: capitalize;
+      
       width: calc(100% - 40px); }
   .faq-wrapper .faq-item .faq-content {
     padding: 10px 0 40px;
@@ -3458,7 +3458,7 @@ ul.bullet-list {
     transform: translate(-50%, -50%) rotate(90deg); }
 
 .faq-area .main-title {
-  text-transform: capitalize;
+  
   margin-right: -12px;
   margin-bottom: 15px; }
   @media (min-width: 576px) {
@@ -3579,7 +3579,7 @@ ul.bullet-list {
       color: #F58634; }
 
 .video-content .title {
-  text-transform: capitalize;
+  
   margin-bottom: 24px; }
   @media (max-width: 575px) {
     .video-content .title {
@@ -3609,7 +3609,7 @@ ul.bullet-list {
       .reseller-item .reseller-thumb {
         margin-bottom: 30px; } }
   .reseller-item .title {
-    text-transform: capitalize; }
+     }
 
 @media (min-width: 992px) {
   .reseller-about-content {
@@ -3624,7 +3624,7 @@ ul.bullet-list {
     .reseller-about-content .title {
       margin-top: -11px; } }
 .reseller-about-content .title {
-  text-transform: capitalize;
+  
   margin-bottom: 25px; }
   @media (min-width: 576px) {
     .reseller-about-content .title {
@@ -3661,7 +3661,7 @@ ul.bullet-list {
 /*privacy-section*/
 .privacy-content .title {
   margin-bottom: 29px;
-  text-transform: capitalize;
+  
   margin-top: 26px; }
   .privacy-content .title:first-child {
     margin-top: -10px; }
@@ -3682,7 +3682,7 @@ ul.bullet-list {
   position: sticky;
   top: 124px; }
   .privacy-sidebar-content .title {
-    text-transform: capitalize;
+    
     margin-bottom: 10px; }
     @media (min-width: 992px) {
       .privacy-sidebar-content .title:first-child {
@@ -3692,7 +3692,7 @@ ul.bullet-list {
     .privacy-sidebar-content ul li a {
       padding: 0;
       color: #565b73;
-      text-transform: capitalize; }
+       }
       .privacy-sidebar-content ul li a:hover {
         color: #F58634;
         padding-left: 3px; }
@@ -3843,10 +3843,10 @@ div[class*="position"] .details .area {
   margin-bottom: 30px; }
   .country-item .title {
     margin-bottom: 10px;
-    text-transform: capitalize; }
+     }
   .country-item ol {
     margin: 0;
-    text-transform: capitalize;
+    
     padding: 0;
     padding-left: 25px;
     margin-bottom: -12px; }
@@ -3888,7 +3888,7 @@ div[class*="position"] .details .area {
       padding: 40px 15px; } }
 
   .account-wrapper .account-title {
-    text-transform: capitalize;
+    
     margin-top: -12px;
     margin-bottom: 15px; }
     @media (min-width: 576px) {
@@ -4116,7 +4116,7 @@ div[class*="position"] .details .area {
   position: relative;
   z-index: 1; }
   .four-0-content .title {
-    text-transform: capitalize;
+    
     margin-bottom: 20px; }
   @media (min-width: 576px) {
     .four-0-content {
@@ -4190,7 +4190,7 @@ div[class*="position"] .details .area {
     .plan-item .plan-thumb img {
       max-width: 100%; }
   .plan-item .plan-content .title {
-    text-transform: capitalize;
+    
     margin-bottom: 13px; }
     @media (max-width: 575px) {
       .plan-item .plan-content .title {
@@ -4253,7 +4253,7 @@ div[class*="position"] .details .area {
       color: inherit;
       display: flex;
       align-items: baseline;
-      text-transform: capitalize;
+      
       margin-bottom: -8px;
       font-size: 16px; }
       .post-item .post-content .read-more i {
@@ -4601,7 +4601,7 @@ div[class*="position"] .details .area {
     .comments {
       padding: 45px 30px; } }
   .comments .title {
-    text-transform: capitalize;
+    
     margin-top: -12px;
     margin-bottom: 13px; }
     @media (min-width: 576px) {
@@ -4734,7 +4734,7 @@ div[class*="position"] .details .area {
   color: #F58634;
   overflow: hidden;
   position: relative;
-  text-transform: capitalize;
+  
   line-height: 35px;
   padding: 11px 30px;
   background: transparent;

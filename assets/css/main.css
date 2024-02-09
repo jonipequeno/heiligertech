@@ -2069,7 +2069,18 @@ i[class*="flaticon"] {
           width: 100%;
           padding: 0; }
         .counter-wrapper .counter-item .counter-header i {
-          margin: 0 auto 15px; } }
+          margin: 0 auto 15px; }
+          .client-item .client-thumb {
+            width: 250px;
+            height: 250px;
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 0 auto 25px;
+        }
+        
+        
+        }
+
 
 /*offer-section Starts Here*/
 .right-side-offer {

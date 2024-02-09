@@ -102,7 +102,32 @@ textarea {
 .hidden {
   display: none !important; }
 
+.btnSaibamais{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
+}
+
+.saibamais{
+ margin-top: 15px; 
+  font-size: 18px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    overflow: hidden;
+    position: relative;
+    line-height: 35px;
+    padding: 11px 30px;
+    background-color: #F58634;
+    z-index: 9;
+    border: 1px solid #ffffff;
+    display: inline-flex;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
 
 /*
 * Hide only visually, but have it available for screen readers:

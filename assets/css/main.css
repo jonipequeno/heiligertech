@@ -1937,11 +1937,9 @@ i[class*="flaticon"] {
       background: #F58634; }
 
 .client-item .client-thumb {
-  width: 129px;
-  height: 129px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+ border-radius: 15px;
   overflow: hidden;
   margin: 0 auto 25px; }
   @media (min-width: 576px) {

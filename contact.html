@@ -117,39 +117,47 @@
     <!-- ==========Header Section========== -->
 
     <!-- =============Hero Area============= -->
-    <!-- <section class="hero-area bg_img" data-background="assets/images/page-header.jpg">
+    <section class="hero-area bg_img" data-background="assets/images/page-header.jpg">
         <div class="container">
-            <h1 class="title m-0"></h1>
+            <h1 class="title m-0">Contatos</h1>
         </div>
-    </section> -->
+    </section>
     <div class="breadcrumb-section">
         <div class="container">
             <ul class="breadcrumb">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html">inicio</a>
                 </li>
                 <li>
-                    signin
+                    Contatos
                 </li>
             </ul>
         </div>
     </div>
     <!-- =============Hero Area============= -->
 
-    <!--=================Account Section================= -->
-    <section class="account-section padding-top padding-bottom bg_img bg_bottom_center bg_contain"
-        data-background="assets/images/contact/contact-bg.png">
-        <div class="container">
-            <div class="account-wrapper">
-                <div class="account-area">
-                    <h3 class="account-title">Envie sua Mensgem</h3>
+   
+    
+
+ <!--=================Formulario================= -->
+ <section class="sms-testing padding-bottom padding-top bg-ash">
+    <div class="container">
+        <div class="section-header wow fadeInUp">
+            <span class="cate">Contato</span>
+            <h2 class="title">Entre em contanto</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="testing-item wow fadeInUp" data-wow-delay=".3s">
+                    <h4 class="title">Envie sua mensagem</h4>
+                   
                     <form action="https://www.rdstation.com.br/api/1.2/conversions" method="POST">
                         <input type="hidden" name="token_rdstation" value="fc667c34dd589071d52a7275e4f6e1b4" />
                         <!--
                           * Atenção!
                           * Token de testes - Usar o próprio de sua conta encontrado em: https://www.rdstation.com.br/docs/api
                         -->
-                        <input type="hidden" name="identificador" value="PaginaContatos" />
+                        <input type="hidden" name="identificador" value="teste-html-puro" />
                         <!-- <input type="hidden" name="redirect_to" value="http://resultadosdigitais.com.br" /> -->
                     
                         
@@ -163,7 +171,7 @@
                           </div>
                           <div class="field">
                             <!-- <label>Empresa:</label> -->
-                            <input type="tel" name="celular" placeholder="Digite seu numero Ex: 99 99999-9999" required/>
+                            <input type="tel" name="numero" placeholder="Digite seu numero Ex:  99 99999-9999" required/>
                           </div>
                         <div class="field">
                             <!-- <label>Empresa:</label> -->
@@ -179,10 +187,11 @@
 
                             <textarea name="mensagem" placeholder="Mensagem" cols="30" rows="10"></textarea>
                           </div>
-                         <div class="field">
+                         <div class="field termo">
                             <input  type="checkbox" id="scales" name="scales"   required /> <label class="" style="font-size: 10px;"> Ao preencher o formulário, concordo * em receber comunicações de acordo com meus interesses. <br>
-                                - Ao informar meus dados, eu concordo com a <a href="privacidade.html"> Política de privacidade.</a> <br>
+                                - Ao informar meus dados, eu concordo com a <a href=""> Política de privacidade.</a> <br>
                                 * Você pode alterar suas permissões de comunicação a qualquer tempo.</label>
+                            
                          </div>
                         <div class="actions">
                     <input type="hidden" name="c_utmz" id="c_utmz" value="" />
@@ -195,16 +204,26 @@
                       </form>
                 </div>
             </div>
+            <div class="col-md-6">
+                <div class="testing-item wow fadeInUp" data-wow-delay=".3s">
+                    <h4 class="title">Sobre sua privacidade</h4>
+                    <p>Nossa empresa adere rigorosamente aos princípios da LGPD, garantindo transparência, segurança e responsabilidade no tratamento de dados, reafirmando nosso compromisso em proteger a privacidade e a confidencialidade das informações de nossos clientes. </p>
+                    
+                </div>
+            </div>
         </div>
-    </section>
-    <!--=================Account Section================= -->
-    
+    </div>
+</section>
+
+
+
+
     <!--=================Contact Info Section================= -->
     <section class="office-info padding-top padding-bottom">
         <div class="container">
             <div class="section-header">
                 <h2 class="title">
-                    office contact info
+                    Nossos contatos
                 </h2>
             </div>
             <div class="row justify-content-center mb-30-none">
@@ -212,14 +231,14 @@
                     <div class="contact-item">
                         <div class="contact-thumb">
                             <!-- <img src="./assets/images/contact/destination.png" alt="contact"> -->
-                            <i class="flaticon-route"></i>
+                            <!-- <i class="flaticon-route"></i> -->
                         </div>
                         <div class="contact-content">
-                            <h4 class="title">office address</h4>
+                            <h4 class="title">Nosso endereço</h4>
                             <ul>
-                                <li>USA, Callifornia Fivenuen</li>
-                                <li>Callifornia Town Hall</li>
-                                <li>PO:2457-256</li>
+                                <li>Rua Gomes de Carvalho 1507</li>
+                                <li>São Paulo - SP</li>
+                                <li>CEP 04547-005</li>
                             </ul>
                         </div>
                     </div>
@@ -228,14 +247,14 @@
                     <div class="contact-item">
                         <div class="contact-thumb">
                             <!-- <img src="./assets/images/contact/call.png" alt="contact"> -->
-                            <i class="flaticon-call-center"></i>
+                            <i class="f;laticon-call-center"></i>
                         </div>
                         <div class="contact-content">
-                            <h4 class="title">phone number</h4>
+                            <h4 class="title">Numeros</h4>
                             <ul>
-                                <li><a href="Tel:939383883890">01478-878-6578-24545</a></li>
-                                <li><a href="Tel:939383883890">024178-2457-658777</a></li>
-                                <li><a href="Tel:939383883890">05478454254-10</a></li>
+                                <li><a href="Tel:(11) 3847-8921">(11) 3847-8921</a></li>
+                                <li><a target="_blank" href="https://wa.me/5511975297000">(11) 97529-7000</a></li>
+                                <!-- <li><a href="Tel:939383883890">05478454254-10</a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -244,19 +263,19 @@
                     <div class="contact-item">
                         <div class="contact-thumb">
                             <!-- <img src="./assets/images/contact/worldwide.png" alt="contact"> -->
-                            <i class="flaticon-global"></i>
+                            <!-- <i class="flaticon-global"></i> -->
                         </div>
                         <div class="contact-content">
-                            <h4 class="title">email address</h4>
+                            <h4 class="title">E-mail</h4>
                             <ul>
                                 <li>
-                                    <a href="Mailto:softkingsupport@.com">softkingsupport@.com</a>
+                                    <a target="_blank" href="Mailto:clayno@heiliger.tech">clayno@heiliger.tech</a>
                                 </li>
                                 <li>
-                                    <a href="Mailto:wwwsmsio145.com">wwwsmsio145.com</a>
+                                    <a target="_blank" href="Mailto:comercial@heiliger.tech">comercial@heiliger.tech</a>
                                 </li>
                                 <li>
-                                    <a href="Mailto:support24/7.com">support24/7.com</a>
+                                    <a target="_blank" href="Mailto:vendas@heiliger.tech">vendas@heiliger.tech</a>
                                 </li>
                             </ul>
                         </div>
@@ -268,7 +287,7 @@
     <!--=================Contact Info Section================= -->
 
     <!--=================Maps Section================= -->
-    <div class="maps"></div>
+    <!-- <div class="maps"></div> -->
     <!--=================Maps Section================= -->
 
     <!--=================Footer Section================= -->
@@ -367,7 +386,7 @@
         </div>
         <div class="footer-bottom py-3 py-sm-4 text-center">
             <div class="container">
-               <a href="index.html"><img src="/assets/images/logo/heiligerTECH_logo_branca.png" alt="" width="150px" srcset=""></a>
+               <a href="index.html"><img src="/assets/images/logo/logo2.png" alt="" width="150px" srcset=""></a>
             </div>
         </div>
     </footer>

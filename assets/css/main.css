@@ -35,9 +35,7 @@ html {
     padding: 0;
     margin-right: 5px;
 }
-/*
- * A better looking default horizontal rule
- */
+
 hr {
   display: block;
   height: 1px;
@@ -46,11 +44,7 @@ hr {
   margin: 1em 0;
   padding: 0; }
 
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
+
 audio,
 canvas,
 iframe,
@@ -59,38 +53,24 @@ svg,
 video {
   vertical-align: middle; }
 
-/*
- * Remove default fieldset styles.
- */
+
 fieldset {
   border: 0;
   margin: 0;
   padding: 0; }
 
-/*
- * Allow only vertical resizing of textareas.
- */
+
 textarea {
   resize: vertical; }
 
-/* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
+
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
   color: #000;
   padding: 0.2em 0; }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-/*
- * Hide visually and from screen readers
- */
+
 .hidden {
   display: none !important; }
 
@@ -121,14 +101,7 @@ textarea {
     border-radius: 30px;
 }
 
-/*
-* Hide only visually, but have it available for screen readers:
-* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
-*
-* 1. For long content, line feeds are not interpreted as spaces and small width
-*    causes content to wrap 1 word per line:
-*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
-*/
+
 
 
 .nome1{
@@ -151,13 +124,9 @@ textarea {
   position: absolute;
   width: 1px;
   white-space: nowrap;
-  /* 1 */ }
+   }
 
-/*
-* Extends the .visuallyhidden class to allow the element
-* to be focusable when navigated to via the keyboard:
-* https://www.drupal.org/node/897638
-*/
+
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -168,23 +137,11 @@ textarea {
   width: auto;
   white-space: inherit; }
 
-/*
-* Hide visually and from screen readers, but maintain layout
-*/
+
 .invisible {
   visibility: hidden; }
 
-/*
-* Clearfix: contain floats
-*
-* For modern browsers
-* 1. The space content is one way to avoid an Opera bug when the
-*    `contenteditable` attribute is included anywhere else in the document.
-*    Otherwise it causes space to appear at the top and bottom of elements
-*    that receive the `clearfix` class.
-* 2. The use of `table` rather than `block` is only necessary if using
-*    `:before` to contain the top-margins of child elements.
-*/
+
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -195,27 +152,19 @@ textarea {
 .clearfix:after {
   clear: both; }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
+
 @media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */ }
+  }
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */ }
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
+   }
+
 @media print {
   *,
   *:before,
   *:after {
     background: transparent !important;
     color: #000 !important;
-    /* Black prints faster */
+    
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     text-shadow: none !important; }
@@ -230,10 +179,7 @@ textarea {
   abbr[title]:after {
     content: " (" attr(title) ")"; }
 
-  /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
-   */
+  
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: ""; }
@@ -246,10 +192,7 @@ textarea {
     border: 1px solid #999;
     page-break-inside: avoid; }
 
-  /*
-   * Printing Tables:
-   * http://css-discuss.incutio.com/wiki/Printing_Tables
-   */
+  
   thead {
     display: table-header-group; }
 
@@ -512,7 +455,7 @@ input {
   align-items: center;
   z-index: 9999999; }
 
-/*Section Header*/
+
 .mb-30-none {
   margin-bottom: -30px !important; }
 
@@ -670,47 +613,28 @@ input {
 
   .mr-lg-30-xl {
     margin-right: 30px !important; } }
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-/* Document
-   ========================================================================== */
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
+
 html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */ }
 
-/* Sections
-   ========================================================================== */
-/**
- * Remove the margin in all browsers.
- */
+
 body {
   margin: 0; }
 
-/**
- * Render the `main` element consistently in IE.
- */
+
+ 
 main {
   display: block; }
 
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
-/* Grouping content
-   ========================================================================== */
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
+
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -719,28 +643,18 @@ hr {
   overflow: visible;
   /* 2 */ }
 
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
+
 pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */ }
 
-/* Text-level semantics
-   ========================================================================== */
-/**
- * Remove the gray background on active links in IE 10.
- */
+
 a {
   background-color: transparent; }
 
-/**
- * 1. Remove the bottom border in Chrome 57-
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
+
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -749,17 +663,12 @@ abbr[title] {
   text-decoration: underline dotted;
   /* 2 */ }
 
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
+
 b,
 strong {
   font-weight: bolder; }
 
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
+
 code,
 kbd,
 samp {
@@ -768,16 +677,11 @@ samp {
   font-size: 1em;
   /* 2 */ }
 
-/**
- * Add the correct font size in all browsers.
- */
+
 small {
   font-size: 80%; }
 
-/**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
- */
+
 sub,
 sup {
   font-size: 75%;
@@ -791,20 +695,11 @@ sub {
 sup {
   top: -0.5em; }
 
-/* Embedded content
-   ========================================================================== */
-/**
- * Remove the border on images inside links in IE 10.
- */
+
 img {
   border-style: none; }
 
-/* Forms
-   ========================================================================== */
-/**
- * 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari.
- */
+
 button,
 input,
 optgroup,
@@ -819,36 +714,26 @@ textarea {
   margin: 0;
   /* 2 */ }
 
-/**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
- */
+
 button,
 input {
   /* 1 */
   overflow: visible; }
 
-/**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
- */
+
 button,
 select {
   /* 1 */
   text-transform: none; }
 
-/**
- * Correct the inability to style clickable types in iOS and Safari.
- */
+
 button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button; }
 
-/**
- * Remove the inner border and padding in Firefox.
- */
+
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -856,27 +741,18 @@ button::-moz-focus-inner,
   border-style: none;
   padding: 0; }
 
-/**
- * Restore the focus styles unset by the previous rule.
- */
+
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText; }
 
-/**
- * Correct the padding in Firefox.
- */
+
 fieldset {
   padding: 0.35em 0.75em 0.625em; }
 
-/**
- * 1. Correct the text wrapping in Edge and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
- *    `fieldset` elements in all browsers.
- */
+
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -891,22 +767,15 @@ legend {
   white-space: normal;
   /* 1 */ }
 
-/**
- * Add the correct vertical alignment in Chrome, Firefox, and Opera.
- */
+
 progress {
   vertical-align: baseline; }
 
-/**
- * Remove the default vertical scrollbar in IE 10+.
- */
+
 textarea {
   overflow: auto; }
 
-/**
- * 1. Add the correct box sizing in IE 10.
- * 2. Remove the padding in IE 10.
- */
+
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -914,64 +783,42 @@ textarea {
   padding: 0;
   /* 2 */ }
 
-/**
- * Correct the cursor style of increment and decrement buttons in Chrome.
- */
+
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto; }
 
-/**
- * 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari.
- */
+
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
   /* 2 */ }
 
-/**
- * Remove the inner padding in Chrome and Safari on macOS.
- */
+
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
-/**
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
+
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
   /* 2 */ }
 
-/* Interactive
-   ========================================================================== */
-/*
- * Add the correct display in Edge, IE 10+, and Firefox.
- */
+
 details {
   display: block; }
 
-/*
- * Add the correct display in all browsers.
- */
+
 summary {
   display: list-item; }
 
-/* Misc
-   ========================================================================== */
-/**
- * Add the correct display in IE 10+.
- */
+
 template {
   display: none; }
 
-/**
- * Add the correct display in IE 10.
- */
+
 [hidden] {
   display: none; }
 
@@ -1407,7 +1254,7 @@ header.style-two {
       background: #0d112b;
       border: none; } }
 
-/*banner-section-one starts here*/
+
 .banner-section {
   background-color: #fafafa;
   position: relative;
@@ -1581,7 +1428,7 @@ header.style-two {
       margin-left: 5px;
       margin-bottom: 7px; }
 
-/*banner-slider here*/
+
 .banner-slider {
   position: relative;
   overflow: hidden; }
@@ -1809,7 +1656,6 @@ i[class*="flaticon"] {
   color: #F58634;
   line-height: 1; }
 
-/*choose-section Starts Here*/
 .choose-item {
   margin-bottom: 30px;
   padding: 40px 20px;
@@ -1867,7 +1713,6 @@ i[class*="flaticon"] {
     -webkit-animation: fadeInUp 1s;
     -moz-animation: fadeInUp 1s; }
 
-/*service-section Starts Here */
 .service-item {
   height: 500px;
   border-radius: 5px;
@@ -1927,7 +1772,7 @@ i[class*="flaticon"] {
       -webkit-animation: fadeInDown 0.45s cubic-bezier(0.89, 0.05, 0, 0.54);
       -moz-animation: fadeInDown 0.45s cubic-bezier(0.89, 0.05, 0, 0.54); }
 
-/*Client-section Starts here*/
+
 .client-say-slider {
   overflow: hidden; }
 
@@ -1995,7 +1840,7 @@ i[class*="flaticon"] {
         line-height: 35px;
         margin-bottom: -10px; } }
 
-/*counter-up-section Starts Here*/
+
 .counter-up-section {
   background: #F58634;
   padding: 80px 0; }
@@ -2074,7 +1919,7 @@ i[class*="flaticon"] {
         }
 
 
-/*offer-section Starts Here*/
+
 .right-side-offer {
   text-align: center;
   margin-bottom: 25px; }
@@ -2217,7 +2062,7 @@ i[class*="flaticon"] {
   .mask-sms .bulk-content p:last-child {
     margin-bottom: -8px; }
 
-/*price-section Starts Here*/
+
 .price-section-two {
   background: #F58634; }
 
@@ -2355,7 +2200,7 @@ i[class*="flaticon"] {
     .price-item-three ul {
       box-shadow: 0 0 20px rgba(83, 80, 255, 0.06); }
 
-/*sponsor-section Starts Here*/
+
 .sponsor-slider {
   margin: 0 -1px;
   overflow: hidden; }
@@ -2373,7 +2218,7 @@ i[class*="flaticon"] {
   .sponsor-thumb img {
     max-width: 100%; }
 
-/*testimonial-section Starts Here*/
+
 .testimonial-section {
   background: #f8f8f8; }
   .testimonial-section .section-header {
@@ -2518,7 +2363,7 @@ i[class*="flaticon"] {
     -webkit-transform: scale(0.8) rotate(15deg);
     -ms-transform: scale(0.8) rotate(15deg);
     transform: scale(0.8) rotate(15deg); } }
-/*case-section Starts Here*/
+
 ul.filter {
   justify-content: center;
   margin-bottom: 40px; }
@@ -2593,7 +2438,7 @@ ul.filter {
     .project-item .project-inner:hover .project-content .title a {
       color: #ffffff; }
 
-/*overview-section starts here*/
+
 @media (max-width: 991px) {
   .overview-one-content {
     margin-top: -50px; } }
@@ -2618,7 +2463,7 @@ ul.filter {
 .overview-one-thumb img {
   width: 100%; }
 
-/*overview-two-content Starts Here*/
+
 .overview-two-content {
   max-width: 600px; }
   @media (min-width: 1200px) {
@@ -2707,7 +2552,7 @@ ul.filter {
     .overview-play-item .o-play-thumb {
       margin: 0 auto 20px; } }
 
-/*hero-area*/
+
 .hero-area {
   position: relative;
   padding: 100px 0; }
@@ -2763,7 +2608,7 @@ ul.filter {
       font-weight: 600;
       color: #F58634; }
 
-/*feature-section Starts*/
+
 .feature-section-wrapper {
   justify-content: space-between;
   align-items: center; }
@@ -2855,7 +2700,7 @@ ul.filter {
         .feature-area.style-two .feature-item {
           margin-bottom: 40px; } }
 
-/*step-section Starts*/
+
 .step-item {
   margin-bottom: 30px; }
   .step-item .step-thumb {
@@ -2907,7 +2752,7 @@ ul.filter {
     -ms-transform: scale(1.1) rotate(5deg);
     transform: scale(1.1) rotate(5deg); }
 
-/*non-masking-sms-section-overview Starts*/
+
 .overview-three-content .title,
 .overview-non-masking-left .title {
   
@@ -3008,7 +2853,6 @@ ul.filter {
   .mw-xxl-100 {
     max-width: 100%; } }
 
-/*get-service-section Starts Here*/
 .service-form {
   justify-content: space-between;
   margin-bottom: 10px; }
@@ -3104,7 +2948,7 @@ h4.title {
   .location-based .thumb {
     margin-bottom: 30px; } }
 
-/*overview-three-section Starts*/
+
 @media (min-width: 992px) {
   .overview-three-content {
     margin-left: 30px; } }
@@ -3116,7 +2960,7 @@ h4.title {
   .overview-three-content {
     margin: 0 !important; } }
 
-/* location-based-left Start */
+
 .location-based-left .title {
   
   margin-bottom: 18px; }
@@ -3143,7 +2987,7 @@ h4.title {
     .l-b-thumb {
       margin-bottom: 0; } }
 
-/*process-service*/
+
 .service-pro-area {
   margin: 0 auto -37px;
   max-width: 820px;
@@ -3219,7 +3063,6 @@ ul.bullet-list {
   ul.bullet-list:last-child {
     margin-bottom: -13px; }
 
-/*voice-message-section*/
 .voice-thumb {
   text-align: center;
   margin-bottom: 36px; }
@@ -3336,7 +3179,7 @@ ul.bullet-list {
     .overview-four-content.sp-align p:last-child {
       margin-bottom: -8px; }
 
-/*email-section Starts*/
+
 .email-topper-area {
   margin-bottom: 40px; }
   .email-topper-area .title {
@@ -3417,7 +3260,7 @@ ul.bullet-list {
       .email-tab .bullet-list.style-two li {
         width: 100% !important; } }
 
-/*faq-section Starts*/
+
 .faq-section-title {
   
   margin-bottom: 10px; }
@@ -3533,7 +3376,7 @@ ul.bullet-list {
   .case-item:hover .case-content .title a {
     color: #F58634; }
 
-/*case-details Start*/
+
 .case-details-content .title {
   margin-top: 26px;
   margin-bottom: 29px; }
@@ -3612,7 +3455,7 @@ ul.bullet-list {
     .video-content .title {
       margin-bottom: 22px; } }
 
-/*reseller-section*/
+
 .reseller-item {
   margin-bottom: 30px;
   padding: 40px 20px;
@@ -3685,7 +3528,7 @@ ul.bullet-list {
     word-break: break-all;
     margin-bottom: -8px; }
 
-/*privacy-section*/
+
 .privacy-content .title {
   margin-bottom: 29px;
   
@@ -3744,7 +3587,7 @@ ul.bullet-list {
 .pos-rel {
   position: relative !important; }
 
-/*country-coverage-section starts*/
+
 #vmap {
   height: 320px;
   position: relative;
@@ -3880,7 +3723,7 @@ div[class*="position"] .details .area {
     .country-item ol li {
       padding: 4px 0; }
 
-/*account-section Starts*/
+
 .account-wrapper {
   max-width: 790px;
   margin: 0 auto; }
@@ -4035,7 +3878,7 @@ div[class*="position"] .details .area {
   .bg_xxl_contain {
     background-size: contain; } }
 
-/*contact-section Starts Here*/
+
 @media (max-width: 1199px) {
   .account-section {
     background-image: none !important;
@@ -4106,7 +3949,7 @@ div[class*="position"] .details .area {
       .contact-item .contact-content .title {
         margin-bottom: 4px; } }
 
-/*maps-section Starts*/
+
 .maps {
   min-height: 350px; }
   @media (min-width: 768px) {

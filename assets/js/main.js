@@ -250,4 +250,15 @@
       }
     });
   });
+  
 })(jQuery);
+$(document).ready(function() {
+  var video = document.getElementById('bgvid');
+  $(window).resize(function() {
+    var $window = $(window);
+    var width = $window.width();
+    var height = $window.height();
+    video.style.width = width + 'px';
+    video.style.height = height + 'px';
+  });
+});

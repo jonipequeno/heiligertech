@@ -18,6 +18,8 @@ html {
    }
 
 
+  
+
 ::selection {
   background: #b3d4fc;
   text-shadow: none; }
@@ -51,7 +53,17 @@ iframe,
 img,
 svg,
 video {
-  vertical-align: middle; }
+  vertical-align: middle;
+   
+}
+
+video{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
 
 
 fieldset {
@@ -212,6 +224,21 @@ textarea {
 html {
   font-size: 18px;
   scroll-behavior: smooth; }
+
+  .client-logos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.client-logo {
+    max-width: 150px;
+    max-height: 50px;
+    margin: 10px;
+}
+
 
 body {
   padding: 0;
@@ -998,8 +1025,8 @@ header .list {
             padding: 5px;
             min-width: 220px;
             padding: 12px 0;
-            border-top: 5px solid #F58634;
-            border-bottom: 5px solid #F58634;
+            border-top: 5px solid ;
+            border-bottom: 5px solid ;
             opacity: 0;
             visibility: hidden;
             -webkit-transform: translateY(-10px);
@@ -1385,10 +1412,9 @@ header.style-two {
         right: -24%; } }
 
 .maps-shape {
+  
   position: absolute;
-  top: 50px;
-  left: 50px;
-  right: 50px;
+  
   bottom: 50px; }
   @media (min-width: 1200px) {
     .maps-shape {

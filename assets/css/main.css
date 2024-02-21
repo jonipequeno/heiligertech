@@ -1285,7 +1285,8 @@ header.style-two {
 
 
 .banner-section {
-  background-color: #fafafa;
+  
+  background-image: url(/assets/images/banner/teste.png) no-repeat ;
   position: relative;
   overflow: hidden;
   padding: 100px 0; }

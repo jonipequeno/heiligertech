@@ -551,6 +551,11 @@ input {
   .bg-theme .cate {
     color: #000000 !important; }
 
+
+.titulo{
+  color: #e5e5e5;
+}
+
 .section-header {
   margin: 0 auto 40px;
   text-align: center;
@@ -1286,10 +1291,11 @@ header.style-two {
 
 .banner-section {
   
-  background-image: url(/assets/images/banner/teste.png) no-repeat ;
-  position: relative;
-  overflow: hidden;
-  padding: 100px 0; }
+  width: 100%;
+  min-height: 100vh;
+  background: url("/assets/images/Design\ sem\ nome.svg") top center;
+  background-size: cover;
+  position: relative; }
   .banner-section .banner-content {
     position: relative;
     z-index: 1;

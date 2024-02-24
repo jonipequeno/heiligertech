@@ -1314,9 +1314,12 @@ header.style-two {
       margin: 0; }
       @media (min-width: 768px) {
         .banner-section .banner-content .title {
+        
           font-size: 50px;
           line-height: 60px;
-          margin-bottom: 30px; } }
+          margin-bottom: 30px; } 
+          
+        }
     .banner-section .banner-content .video-button-group {
       margin: -5px;
       margin-bottom: -15px; }
@@ -1330,6 +1333,11 @@ header.style-two {
         line-height: 1.4;
         margin-bottom: 20px; } }
     @media (max-width: 575px) {
+      .banner-section{
+       
+        padding: 10%;
+      }
+
       .banner-section .banner-content {
         text-align: center; }
         .banner-section .banner-content .title {

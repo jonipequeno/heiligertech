@@ -1334,8 +1334,10 @@ header.style-two {
         margin-bottom: 20px; } }
     @media (max-width: 575px) {
       .banner-section{
-       
-        padding: 10%;
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+              
       }
 
       .banner-section .banner-content {

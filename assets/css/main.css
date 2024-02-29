@@ -1293,7 +1293,7 @@ header.style-two {
   
   width: 100%;
   min-height: 100vh;
-  background: url("/assets/images/Design\ sem\ nome.svg") top center;
+  /* background: url("/assets/images/Design\ sem\ nome.svg") top center; */
   background-size: cover;
   position: relative; }
   .banner-section .banner-content {

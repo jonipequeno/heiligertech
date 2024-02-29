@@ -3587,6 +3587,15 @@ ul.bullet-list {
     margin-bottom: -8px; }
 
 
+  .privacy-section{
+      display: flex;
+    justify-content: center;
+}
+.privacy-section title{
+  display: flex;
+justify-content: center;
+}
+
 .privacy-content .title {
   margin-bottom: 29px;
   

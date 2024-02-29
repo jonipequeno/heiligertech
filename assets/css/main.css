@@ -431,6 +431,15 @@ input {
   position: absolute;
   content: ''; }
 
+.titleheiliger{
+  display: flex;
+  justify-content: center;
+}
+
+  .footer-social {
+    margin: -5px;
+    justify-content: center;
+}
 .footer-social, .header-top ul, .header-bottom .header-area, .choose-item-two .choose-header-area, .counter-wrapper, .counter-wrapper .counter-item .counter-header, .testing-form, ul.filter, .overview-item-area, .overview-play-item, .feature-section-wrapper, .feature-item, .feature-area.style-two, .benifit-section .benifit-left .benifit-bottom, .service-form, .chekgroup .form-group, .service-pro-area, .service-pro-item .service-pro-thumb, .email-topper-area .bullet-list, .email-tab .tab-menu, .case-details-content .case-details-mini-area, .sign-up-form, .sign-up-form .form-group.checkgroup, .contact-form .form-group.radio-group, .contact-form .form-group.radio-group .radio-item, .post-item.details-post .blog-d-thumb, .post-item.details-post .meta-post, .post-item.details-post .meta-post .left, .details-navigation, .author, .comment-item {
   display: flex;
   flex-wrap: wrap; }

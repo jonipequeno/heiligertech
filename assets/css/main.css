@@ -2242,8 +2242,22 @@ i[class*="flaticon"] {
   margin-left: 5px;
 }
 .service-item:hover {
-  background: #f58634;
+
+  background: #2E3E5B;
 }
+
+.choose-item:hover{
+ 
+  background: #2E3E5B;
+
+}
+.choose-item:hover * {
+ 
+  color: #ffffff;
+
+}
+
+
 .service-item:hover * {
   color: #ffffff;
 }
